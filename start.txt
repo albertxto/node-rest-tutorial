@@ -1,0 +1,47 @@
+Tutorial:
+https://www.youtube.com/watch?v=0oXYLzuucwE&index=1&list=PL55RiY5tL51q4D-B63KBnygU6opNPFk_q
+
+How to install:
+----------------------------------------------------------------
+Install node.js
+Fungsi: Untuk menjalankan node.js global
+----------------------------------------------------------------
+npm init
+Fungsi: Buat package.json
+----------------------------------------------------------------
+npm install --save express
+Fungsi: Install express framework
+Tambahan: --save untuk add ke package.json tersebut
+----------------------------------------------------------------
+https://www.getpostman.com/
+Fungsi: Aplikasi untuk test GET, POST, PATCH, DELETE RESTful API
+
+Installed plugin:
+--------------------------------------------------------------------
+npm install --save-dev nodemon
+Fungsi: Tidak perlu restart server saat ubah file (development only)
+Tambahan: Buka package.json dan tambah nodemon
+--------------------------------------------------------------------
+npm install --save morgan
+Fungsi: Tambah log di command line
+--------------------------------------------------------------------
+npm install --save body-parser
+Fungsi: parse incoming request (support urlencoded dan JSON)
+--------------------------------------------------------------------
+npm install --save mongoose
+Fungsi: Buat simple schema, storing, fetching mongodb
+--------------------------------------------------------------------
+npm install cors
+Fungsi: Untuk memperbolehkan Cross-Origin Resource Sharing (CORS)
+--------------------------------------------------------------------
+npm install --save multer
+Fungsi: Untuk upload file di node.js
+--------------------------------------------------------------------
+npm install bcrypt-nodejs --save
+Fungsi: Hashing password node.js
+--------------------------------------------------------------------
+npm install jsonwebtoken --save
+Fungsi: Buat json web token (jwt)
+
+Start the server:
+node server.js atau npm start
